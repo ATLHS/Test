@@ -5,7 +5,8 @@ const Fullpage = () => (
   <ReactFullpage
     //fullpage options
     sectionsColor={["#282c34", "#ff5f45", "#0798ec"]}
-    scrollingSpeed = {1500} /* Options here */
+    scrollingSpeed = {800} /* Options here */
+    parallax = {true}
 
     render={({ state, fullpageApi }) => {
       return (
