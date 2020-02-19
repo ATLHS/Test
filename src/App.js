@@ -1,11 +1,11 @@
 import React from 'react';
 import './css/App.css';
-import FullPageJs from './components/FullPageJs';
+import Fullpage from './components/Fullpage';
 
 function App() {
   return (
     <div className="App">
-      <FullPageJs />
+      <Fullpage />
     </div>
   );
 }
