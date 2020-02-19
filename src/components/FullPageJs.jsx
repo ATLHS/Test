@@ -8,6 +8,7 @@ const FullPageJs = () => (
   // ReactFullpage props
   navigation
   sectionsColor={["#282c34", "#ff5f45", "#0798ec"]}
+  scrollingSpeed={2000}
   render = {({state, fullpageApi}) => {
     return (
       <>
