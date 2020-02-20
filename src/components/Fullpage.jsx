@@ -11,17 +11,17 @@ const Fullpage = () => (
     render={({ state, fullpageApi }) => {
       return (
         
-         <>
+        <ReactFullpage.Wrapper>
           <div className="section">
             
             </div>
             <div className="section">
-             
+
             </div>
             <div className="section">
              
             </div>
-         </>
+            </ReactFullpage.Wrapper>
        
       );
     }}
