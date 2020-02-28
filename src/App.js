@@ -1,11 +1,11 @@
 import React from 'react';
 import './css/App.css';
-import Fullpage from './components/Fullpage';
+import Video from './components/Video';
 
 function App() {
   return (
     <div className="App">
-      <Fullpage />
+      <Video />
     </div>
   );
 }
